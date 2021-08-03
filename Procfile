@@ -1,1 +1,1 @@
-web start = npm run serve
+npm run serve
