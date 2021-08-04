@@ -1,52 +1,38 @@
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif !important;
+}
+
+</style>
+
 <template>
-  <div class="help" id="help">
+  <div class="help" id="help" style="font-family: 'Roboto', sans-serif;">
     <div class="text links">
-      <h1>Brie.fi/ng</h1>
+      <h1>Rss Tvndr Meet</h1>
       <p>
-        <strong>Welcome to Briefing. Yet another secure video chat.</strong>
+        <strong>Welcome to Rss <span style="color: orange;">Tvndr Meet</span></strong>
       </p>
       <p>
-        Privacy is the driving force behind this project. It uses secure
-        technologies like
-        <a href="https://webrtc-security.github.io/">WebRTC</a>
-        to directly connect between participants. The website that provides the
-        web app and mediates the communication stores as few data as possible
-        and does not know anything about the contents of established
-        conversations. No accounts are required. No cookies are used.
       </p>
       <p>
-        The difference between Briefing and most similar projects is, that it
-        does not use a central server that distributes the video streams (<a
-          href="https://webrtcglossary.com/sfu/"
-          >SFU</a
-        >). The advantage of an SFU is that it saves bandwidth due to the fact
-        that the own video does not being uploaded to each participant but only
-        once. The SFU can also do more optimizations the clients might not
-        support. But then the video signal is not end-to-end encrypted any more
-        i.e. you have to trust the SFU provider. Briefing instead sends data
-        from peer to peer directly (&quot;Mesh&quot;) and therefore the data
-        does not travel over the server under normal operation. The WebRTC peers
-        however still trust the signaling server for the authenticity of the
-        peer-to-peer communications encryption in place.
+        Namaste, Rss Tvndr Meet Is For Shakha Meetings, Shakha Karyakari , And Other Official Meetings Announced By <a target="blank" href="https://rsstvndrapp.herokuapp.com"> Rss Tvndr </a>
       </p>
       <p>
         <b>
-          Learn more about details at
-          <a href="https://github.com/holtwick/briefing/"
-            >github.com/holtwick/briefing</a
-          >
+          Made With Love 🤟 By <strong>Hari Krishnan</strong>
         </b>
       </p>
       <p><br /></p>
       <p>
-        (C)opyright 2020-2021 by
-        <a href="/goto/holtwick">Dirk Holtwick</a> |
-        <a href="/goto/privacy">Privacy Policy</a> |
-        <a href="/goto/imprint">Imprint</a>
+       &copy;  Copyright 2020-2021 by Rss Tvndr App
       </p>
+      <p>Thanks To Holtwick <a target="blank" href="https://github.com/holtwick">🙏</a></p>
     </div>
   </div>
 </template>
+
 
 <style lang="scss">
 .help {

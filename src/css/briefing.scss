@@ -95,9 +95,9 @@ body {
   }
 }
 
-//.video {
+// .video {
 //  transition: all 1s;
-//}
+// }
 
 .videos {
   padding: 0.25rem;
@@ -377,14 +377,24 @@ body {
   }
 }
 
-// .footer {
-//   @include mediaMobile {
-//     font-size: smaller;
-//   }
-// }
+.footer {
+  @include mediaMobile {
+    font-size: smaller;
+  }
+}
+
+.footer a{
+  color: orange !important;
+}
+
 
 .start-button {
   border-radius: 1rem !important;
   font-size: Max(4vh, 2rem) !important;
   font-weight: 600 !important;
+  background-color: rgb(255, 136, 0) !important;
+}
+
+start-button:hover{
+  background-color: rgb(255, 102, 0);
 }

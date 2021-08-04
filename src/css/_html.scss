@@ -24,9 +24,9 @@ body {
   overflow: hidden; // Do not bounce on scroll macOS
   margin: 0;
   padding: 0;
-  // font-size: 16px;
-  // font-family: var(--font-family);
-  // -ms-overflow-style: -ms-autohiding-scrollbar;
+  font-size: 16px;
+  font-family: var(--font-family);
+  -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 body,

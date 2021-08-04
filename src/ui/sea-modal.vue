@@ -10,7 +10,7 @@
     aria-modal="true"
     :role="role"
   >
-    <a @click="doCancel" class="sea-modal-overlay" aria-label="Close"></a>
+    <a  @click="doCancel" class="sea-modal-overlay" aria-label="Close"></a>
     <div class="sea-modal-container vstack">
       <header class="sea-modal-header modal-header -fix" v-if="title || close">
         <div class="hstack">

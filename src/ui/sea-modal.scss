@@ -28,7 +28,7 @@ $modalSepColor: var(--separator-color, $gray-color-light);
       background: $modalOverlayBackground;
       bottom: 0;
       cursor: default;
-      display: block;
+      display: none;
       left: 0;
       position: absolute;
       right: 0;

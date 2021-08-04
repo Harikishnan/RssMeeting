@@ -1,3 +1,4 @@
+
 <template>
   <div class="share-container -scrollable text">
     <p>
@@ -83,4 +84,5 @@ export default {
     })
   },
 }
+
 </script>
