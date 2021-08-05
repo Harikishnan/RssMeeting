@@ -32,11 +32,16 @@ export const ROOM_URL = process.env.VUE_APP_ROOM_URL || "https://brie.fi/ng/"
 export const ROOM_PATH = process.env.VUE_APP_ROOM_PATH || "/ng/"
 
 export const SHOW_FULLSCREEN = isTrue(process.env.VUE_APP_SHOW_FULLSCREEN, true)
-export const SHOW_INVITATION = isTrue(process.env.VUE_APP_SHOW_INVITATION, true)
+export const SHOW_INVITATION = isTrue(false)
 export const SHOW_INVITATION_HINT = isTrue(
-  process.env.VUE_APP_SHOW_INVITATION_HINT,
-  true
+  false
 )
 export const SHOW_SETTINGS = isTrue(process.env.VUE_APP_SHOW_SETTINGS, true)
-export const SHOW_SHARE = isTrue(process.env.VUE_APP_SHOW_SHARE, true)
+export const SHOW_SHARE = isTrue(false)
 export const SHOW_CHAT = isTrue(process.env.VUE_APP_SHOW_CHAT, true)
+
+
+// process.env.VUE_APP_SHOW_SHARE, true
+// process.env.VUE_APP_SHOW_INVITATION, true
+//   process.env.VUE_APP_SHOW_INVITATION_HINT,
+//  true
